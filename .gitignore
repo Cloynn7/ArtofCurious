@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 /node_modules
 /.cache
 /.config
 /.vscode
+=======
+/node_modules/
+/.cache
+/.npm
+/.yarn
+>>>>>>> f2bef6fff8ae80b19261a5969be226d5fe6473d6
