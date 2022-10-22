@@ -16,3 +16,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+function btn_lrn() {
+  window.scrollTo(0, 1300);
+}
