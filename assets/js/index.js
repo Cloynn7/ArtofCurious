@@ -17,6 +17,8 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+// Button Learn More
+
 function btn_lrn() {
   window.scrollTo(0, 1300);
 }
