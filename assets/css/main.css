@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"); /*font-family: 'Roboto Condensed', sans-serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap"); /*font-family: 'Lora', serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&display=swap"); /*font-family: 'Noto Sans Avestan', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;1,100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
 
 * {
   box-sizing: border-box;
@@ -85,9 +87,9 @@ body {
 
 .hero h1 {
   position: relative;
-  margin-top: 18%;
-  font-size: 700%;
-  font-family: "Comfortaa";
+  font-size: 150px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .hero p {
@@ -273,28 +275,39 @@ footer .footer-icn {
   */
 
 /* Card */
+
+.anggota {
+  background-color: #E4A480;
+}
+
+.anggota h2 {
+  text-align: center;
+  padding-top: 1%;
+}
+
 .anggota .card {
-  display: inline-flex;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
   transition: 0.5s;
-  padding: 10px 16px;
   width: 512px;
-  margin: 25px;
+  margin: 1%;
 }
 
 .anggota .card:hover {
-  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.4);
-}
-
-.anggota .content {
-  justify-content: center;
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .anggota div img {
   height: 128px;
   width: 128px;
-  margin-left: 170px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 50% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 50%;
+}
+
+.anggota .card .container {
+  text-align: center;
 }
