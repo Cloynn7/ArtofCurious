@@ -3,8 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"); /*font-family: 'Roboto Condensed', sans-serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap"); /*font-family: 'Lora', serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&display=swap"); /*font-family: 'Noto Sans Avestan', sans-serif;*/
+
+/* DynaPuff */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;1,100&display=swap");
 /* font-family: 'Roboto', sans-serif; */
+
+/* Bubblegum Sans */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+/* font-family: 'Bubblegum Sans', cursive; */
 
 * {
   box-sizing: border-box;
@@ -96,8 +102,8 @@ body {
 
 .hero p {
   margin-top: 3%;
-  font-size: 25px;
-  font-family: "Noto Sans Avestan", sans-serif;
+  font-size: 35px;
+  font-family: 'Bubblegum Sans', cursive;
 }
 
 /* Button Contact us */
