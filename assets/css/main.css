@@ -336,3 +336,22 @@ footer {
 .anggota .card .container {
   text-align: center;
 }
+
+/* Media Query */
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+
+  .hero p {
+    font-size: 23px;
+    text-align: center;
+    margin: 0 5px 0;
+  }
+
+  .btn-lrn {
+    display: none;
+  }
+
+}
