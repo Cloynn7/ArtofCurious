@@ -341,11 +341,11 @@ footer {
 
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
 
   .hero p {
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
     margin: 0 5px 0;
   }
