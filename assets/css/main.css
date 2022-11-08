@@ -151,7 +151,7 @@ body {
 .isi {
   background-color: #e6c87c;
 }
-/* Content 1  - Index */
+/* Content1 */
 
 .content1 h1 {
   padding-top: 5%;
@@ -235,11 +235,12 @@ footer {
   color: white;
   font-family: 'Great Vibes', cursive;
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .footer p {
   font-size: 15px;
-  margin-top: 1%;
+  margin-top: 20px;
 }
 
 .footer a {
@@ -292,7 +293,7 @@ footer {
 .social {
   font-size: 27px;
   padding: 10px;
-  margin: 10px;
+  margin: 0 10px;
 }
 
 /**
@@ -340,6 +341,7 @@ footer {
 /* Media Query */
 
 @media (max-width: 768px) {
+  /* Hero */
   .hero h1 {
     font-size: 55px;
   }
@@ -352,6 +354,12 @@ footer {
 
   .btn-lrn {
     display: none;
+  }
+
+  /* Content1 */
+  .content1 h1 {
+    padding-top: 40px;
+    font-size: 30px;
   }
 
 }
