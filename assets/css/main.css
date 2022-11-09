@@ -362,4 +362,25 @@ footer {
     font-size: 30px;
   }
 
+  .content1 p {
+    font-size: 25px;
+  }
+
+  .content1 img {
+    width: 192px;
+  }
+
+  /* Content2 */
+  .content2 h1 {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  .content2 p {
+    font-size: 25px;
+  }
+
+  .content2 img {
+    width: 192px;
+  }
 }
