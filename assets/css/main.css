@@ -149,6 +149,7 @@ body {
 }
 
 .isi {
+  overflow-x: hidden;
   background-color: #e6c87c;
 }
 /* Content1 */
@@ -337,6 +338,42 @@ footer {
 .anggota .card .container {
   text-align: center;
 }
+
+/**
+  * PAGE TESTIMONI
+  */
+
+  .testimoni {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .card-testimoni {
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    width: 512px;
+    height: 880px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 35px;
+  }
+  
+  .card-testimoni:hover {
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-testimoni img {
+    border-radius: 30px;
+  }
+  
+  .container-testimoni {
+    padding: 2px 16px;
+  }
+
+  .container-testimoni h4 {
+    margin: 15px;
+  }
 
 /* Media Query */
 
