@@ -32,9 +32,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 /* font-family: 'Great Vibes', cursive; */
 
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+*, *::before, *::after{
   margin: 0;
   padding: 0;
 }
@@ -53,7 +51,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #d6634f;
+  background-color: black;
   position: sticky;
   top: 0px;
   z-index: 100;
@@ -134,7 +132,7 @@ body {
 }
 
 .btn-lrn button {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 15px;
@@ -150,7 +148,8 @@ body {
 
 .isi {
   overflow-x: hidden;
-  background-color: #e6c87c;
+  background-color: #484449;
+  color: white;
 }
 /* Content1 */
 
@@ -304,20 +303,34 @@ footer {
 /* Card */
 
 .anggota {
-  background-color: #e4a480;
+  background-color: #484449;
 }
 
 .anggota h2 {
   text-align: center;
   padding-top: 1%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 4px 4px black;
+}
+
+.card .container {
+  color: white;
+  background-color: #484449;
+  border-radius: 35px;
+  padding: 0.1rem 0.5rem;
+  margin-top: 1rem;
 }
 
 .anggota .card {
   display: inline-block;
   box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 35px;
   transition: 0.5s;
-  width: 512px;
+  width: 25rem;
   margin: 1%;
+  padding: 1rem 1rem;
 }
 
 .anggota .card:hover {
@@ -330,8 +343,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 10px;
   border-radius: 50%;
 }
 
@@ -339,12 +351,21 @@ footer {
   text-align: center;
 }
 
+.anggota .card .container h4 {
+  padding-top: 10px;
+}
+
+.anggota .card .container p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
 /**
   * PAGE TESTIMONI
   */
 
   .testi {
-    background-color: #e4a480;
+    background-color: #484449;
   }
 
   /* Image Gallery */
@@ -433,5 +454,12 @@ footer {
 
   .content2 img {
     width: 192px;
+  }
+
+  /* Anggota Page */
+  .anggota .card {
+    display: block;
+    width: 22rem;
+    margin: 1rem 0;
   }
 }
