@@ -1,38 +1,10 @@
 /* Google Fonts */
 
-/* Comfortaa */
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"); /*font-family: 'Comfortaa', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+/* font-family: 'DM Sans', sans-serif;
+ */
 
-/* Roboto Condensed */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"); /*font-family: 'Roboto Condensed', sans-serif;*/
-
-/* Lora */
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap"); /*font-family: 'Lora', serif;*/
-
-/* Noto Sans Avestan */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&display=swap"); /*font-family: 'Noto Sans Avestan', sans-serif;*/
-
-/* DynaPuff */
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;1,100&display=swap");
-/* font-family: 'Roboto', sans-serif; */
-
-/* Bubblegum Sans */
-@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
-/* font-family: 'Bubblegum Sans', cursive; */
-
-/* Poor Story */
-@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
-/* font-family: 'Poor Story', cursive; */
-
-/* Raleway */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-/* font-family: 'Raleway', sans-serif; */
-
-/* Great Vibes */
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-/* font-family: 'Great Vibes', cursive; */
-
-*, *::before, *::after{
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -46,7 +18,6 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style the top navigation bar */
@@ -115,14 +86,13 @@ body {
 .hero h1 {
   position: relative;
   font-size: 150px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
 }
 
 .hero p {
   margin-top: 1rem;
   font-size: 35px;
-  font-family: "Bubblegum Sans", cursive;
 }
 
 /* Button Contact us */
@@ -157,7 +127,7 @@ body {
 .content1 h1 {
   padding-top: 5%;
   margin-left: 1.3%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 50px;
   font-weight: bold;
 }
@@ -166,7 +136,7 @@ body {
   margin-left: 2.3%;
   margin-top: 1.5%;
   font-size: 25px;
-  font-family: 'Poor Story', cursive;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .content1 img {
@@ -180,7 +150,7 @@ body {
   margin-top: 12%;
   margin-right: 19%;
   text-align: right;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 50px;
   font-weight: bold
 }
@@ -189,7 +159,7 @@ body {
   font-size: 25px;
   margin-top: 1.5%;
   margin-right: 2.3%;
-  font-family: 'Poor Story', cursive;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .content2 img {
@@ -203,7 +173,7 @@ body {
 .content3 h1 {
   margin-top: 15%;
   margin-left: 1.3%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 50px;
   font-weight: bold
 }
@@ -218,7 +188,7 @@ li {
   font-size: 25px;
   margin-left: 2.3%;
   margin-bottom: 0;
-  font-family: 'Poor Story', cursive;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /* Footer */
@@ -234,7 +204,6 @@ footer {
 
 .footer h3 {
   color: white;
-  font-family: 'Great Vibes', cursive;
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -374,7 +343,7 @@ footer {
     color: white;
     font-weight: 700;
     text-shadow: 4px 4px black;
-    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'DM Sans', sans-serif;
   }
 
   /* Image Gallery */
@@ -417,6 +386,11 @@ footer {
 
 @media (max-width: 768px) {
   /* Hero */
+  .hero {
+    height: 40em;
+    width: auto;
+  }
+
   .hero h1 {
     font-size: 55px;
   }
